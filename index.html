@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Sözlük</title>
+</head>
+
+<body>
+  <div class="container d-flex flex-column align-items-center justify-content-center mt-5 ">
+    <div class="text-center">
+      <h1 class="display-2 text-center text-primary  fw-bold">Sözlük Uygulaması</h1>
+      <span class="small text-primary">Vanilla Javascript + Vite ve Boostrap</span>
+    </div>
+
+    <div class="mt-5">
+      <form>
+        <div class="input-group mb-3">
+          <input type="text" id="inputElement" class="form-control" placeholder="Sözcük Gir"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button id="ButtonElement" class="btn btn-success" type="button" id="button-addon2">Button</button>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="mt-5 text-center d-flex align-items-center justify-content-center flex-column p-4">
+      <ul class="list-group">
+        <li id="word" class="list-group-item">Kelime</li>
+        <li id="sense" class="list-group-item">Anlamı</li>
+        <li id="example" class="list-group-item">Örnek</li>
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

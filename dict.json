@@ -1,0 +1,19 @@
+{
+    "kelimeler": [
+        {
+            "kelime": "azimli",
+            "tanım": "Kararlılıkla ve sabırla bir şeyi yapma isteği",
+            "ornek_cumle": "O, azimli çalışmaları sayesinde başarılı oldu."
+        },
+        {
+            "kelime": "sadelik",
+            "tanım": "Basit ve süsten uzak olma durumu",
+            "ornek_cumle": "O, sadelikten hoşlanan bir hayat tarzına sahiptir."
+        },
+        {
+            "kelime": "kabiliyetli",
+            "tanım": "Yetenekli veya becerikli olma durumu",
+            "ornek_cumle": "O, kabiliyetli bir müzisyendir ve birçok enstrüman çalabilir."
+        }
+    ]
+}
